@@ -1,0 +1,71 @@
+body {
+    margin: 20px;
+    padding: 20px;
+}
+
+* {
+    font-family: 'Hedvig Letters Sans', sans-serif;
+}
+
+h1 {
+    color:  rgb(4, 253, 4);
+}
+
+.alamat span {
+    padding-right: 10px;
+}
+
+.experience h3 {
+    color: green;
+    border-bottom: 4px solid black;
+}
+
+.experience h4 {
+    color: orange;
+}
+
+.tokopedia {
+    display: flex;
+    justify-content: space-between;
+}
+
+.calender {
+    display: flex;
+    justify-content: space-between;
+}
+
+.location {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gojek {
+    display: flex;
+    justify-content: space-between;
+}
+
+.strengths h3 {
+    color: green;
+    display: flex;
+    border-bottom: 4px solid black;
+}
+
+.achievements h3 {
+    color: green;
+    display: flex;
+    border-bottom: 4px solid black;
+}
+
+@media(min-width: 768px) {
+    body {
+        margin: 60px;
+        padding: 60px;
+        flex-wrap: wrap;
+    }
+
+    * {
+        font-family: 'Hedvig Letters Sans', sans-serif;
+    }
+
+
+}
